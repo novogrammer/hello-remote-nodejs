@@ -16,5 +16,8 @@
     "url": "https://github.com/novogrammer/hello-remote-nodejs/issues"
   },
   "homepage": "https://github.com/novogrammer/hello-remote-nodejs#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
