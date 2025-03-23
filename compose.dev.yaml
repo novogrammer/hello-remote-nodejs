@@ -1,0 +1,11 @@
+services:
+  app:
+    container_name: app
+    build:
+      context: ./
+      dockerfile: dev.Dockerfile
+
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    # tty: true
