@@ -2,9 +2,13 @@
 
 ローカルにNode.jsをインストールせずに開発してみる。
 
+Dev Containersにも対応してみた。
+
 
 ## 前提
 + Docker Compose
++ VS Code
+  + Dev Containers
 
 
 ## 公式Node.jsのイメージを使う
@@ -38,6 +42,11 @@ docker compose -f compose.dev.yaml build
 docker compose -f compose.dev.yaml up
 ```
 
+## devcontainerの環境をコマンドで試す
+```bash
+docker compose -f compose.dev.yaml -f .devcontainer/compose.yaml build
+docker compose -f compose.dev.yaml -f .devcontainer/compose.yaml up
+```
 
 
 
