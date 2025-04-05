@@ -2,8 +2,10 @@
 
 ローカルにNode.jsをインストールせずに開発してみる。
 
-Dev Containersにも対応してみた。
+`Dev Containers`にも対応してみた。
 
+最初から `Dev Containers` を使ったリポジトリ
+https://github.com/novogrammer/hello-remote-nodejs2
 
 ## 前提
 + Docker Compose
